@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 32px;
+            text-align: center;
+            color: darkorchid;
+        }
+        section li{
+            list-style: none;
+        }
+        a:link, a:visited{
+           text-decoration: none;
+           display: block;
+           background-color: cyan;
+           color: green;
+           width: 200px;
+           text-align: center;
+           margin-bottom: 5px;
+           border: 1.5px solid red;
+        }
+        a:hover, a:active{
+            background-color: chartreuse;
+            color: blue;
+            border: 1.5px dotted green
+        }
+        section div:nth-child(odd){
+            background-color: grey;
+        }
+        section div:nth-child(even):hover{
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the Linker Page
+    </h1>
+    <Section>
+        <ul>
+            <li><a href="Demo">First button</a></li>
+            <li><a href="Demo">Second button</a></li>
+            <li><a href="Demo">Third button</a></li>
+        </ul>
+    </Section>
+    <section>
+        <div>Div1</div>
+        <div>Div2</div>
+        <div>Div3</div>
+        <div>Div4</div>
+        <div>Div5</div>
+        <div>Div6</div>
+        <div>Div7</div>
+        <div>Div8</div>
+        <div>Div9</div>
+    </section>
+</body>
+</html>
